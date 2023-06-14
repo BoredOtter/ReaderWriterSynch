@@ -13,4 +13,4 @@ The main components of the program are:
 3.  `main` function: The main function initializes `ncurses` library, creates reader and writer threads, waits for their completion using `pthread_join`, and performs necessary clean-up operations. At the end, it displays a message and waits for user input before terminating.
     
 
-The program demonstrates synchronization and coordination between multiple readers and writers to ensure data consistency and prevent conflicts.
+The program demonstrates synchronization and coordination between multiple readers and writers to ensure data consistency and prevent conflicts. 
